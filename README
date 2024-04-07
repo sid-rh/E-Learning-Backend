@@ -1,0 +1,29 @@
+Env variables:
+    NEON_URL
+    PORT
+    JWT_SECRET
+    CLOUDINARY_CLOUD_NAME
+    CLOUDINARY_API_KEY
+    CLOUDINARY_SECRET_KEY
+    RESEND_API_KEY
+    RESEND_DOMAIN
+    DOMAIN eg- http://localhost:8000
+
+Api endpoints:
+    -User Profile
+        POST /user/register
+        POST /user/login
+        POST /user/logout
+        POST /user/forgotPassword
+        POST /user/changePassword
+        POST /user/update
+        GET  /user/profile
+    -Courses
+        POST /course
+        POST /course/get
+        PUT  /course/:id
+        DELETE /course/:id
+    -Enrollment
+        POST /enrollment
+        GET /enrollment
+
